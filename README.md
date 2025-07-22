@@ -159,6 +159,9 @@ Support this project with your organization. Your logo will show up here with a 
   - [Download pdf](https://arxiv.org/pdf/2103.12157)
 - Title: [Efficient Edge Analytics: Addressing Cyber-Physical MASINT with Machine Learning on Audio at the Edge](https://repository.lib.fit.edu/handle/11141/3223)
   - [Download pdf](https://repository.lib.fit.edu/bitstream/handle/11141/3223/ELLIOTT-DISSERTATION-2020.pdf?sequence=1&isAllowed=y)
+- Title: [Efficient Low-Memory Implementation of Sparse CNNs Using Encoded Partitioned Hybrid Sparse Format](https://dl.acm.org/doi/abs/10.1145/3687239)
+- Title: [Smart Energy Meters for Smart Grids, an Internet of Things Perspective](https://ouci.dntb.gov.ua/en/works/7Pr1ponl/)
+  - [Download pdf](https://repository.kaust.edu.sa/server/api/core/bitstreams/6c9d6c1f-f7d3-4d42-b454-476a8835a8cd/content)
 
 ### Book Chapter
 1. deepC Chapter in book [Introduction to TinyML](http://thetinymlbook.com/), available on [Amazon](https://www.amazon.com/dp/B0B662D7ZW/) and other retailers
