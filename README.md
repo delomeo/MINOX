@@ -1,4 +1,4 @@
-<img src="misc/MINOX-logo.jpg" alt="MINOX Logo"> 
+<img src="assets/MINOX-logo.jpg" alt="MINOX Logo"> 
 
 # MINOX - Microcontroller Inference Network Optimizer for ONNX
 <!-- comment [![Build Status](https://api.travis-ci.org/ai-techsystems/deepC.svg?branch=master)](https://travis-ci.org/github/ai-techsystems/deepC) -->
@@ -25,7 +25,7 @@ See more examples in [tutorial](tutorials/README.md) dir.
 
 MINOX library, compiler and inference framework is designed to **enable and perform** deep learning neural networks by focussing on features of small form-factor devices like micro-controllers, eFPGAs, cpus and other embedded devices like [raspberry-pi](https://www.raspberrypi.org/), [odroid](https://www.hardkernel.com/), [arduino](https://www.arduino.cc/), [SparkFun Edge](https://www.sparkfun.com/products/15170), [risc-V](https://www.amazon.com/Seeed-Studio-Sipeed-Maixduino-RISC-V/dp/B07SW9ZWQQ), mobile phones, x86 and arm laptops among others.
 
-![edge Devices](misc/edgeDevices.png "supported edge devices")
+![edge Devices](assets/edgeDevices.png "supported edge devices")
 
 MINOX also offers ahead of time compiler producing optimized executable based on [LLVM compiler tool chain](https://llvm.org/) specialized for deep neural networks with [ONNX](https://onnx.ai/) as front end.
 
@@ -33,7 +33,7 @@ MINOX also offers ahead of time compiler producing optimized executable based on
 
 Main components of **MINOX** have been designed to represent and optimize the common deep learning networks in high level graph IR and to transform the computation graph to minimize memory utilization, optimize data layout and fuse computation patterns for different hardware backends.
 
-<img width="600" alt="Architecture" src="https://github.com/ai-techsystems/deepC/blob/master/misc/dnnCompilerArch.jpg">
+<img width="600" alt="Architecture" src="assets/dnnCompilerArch.jpg">
 
 Read more at [high level design document](docs/highLevelDesign.md)
 
