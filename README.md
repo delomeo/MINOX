@@ -1,4 +1,4 @@
-<img src="assets/MINOX-logo.jpg" alt="MINOX Logo"> 
+<img width="600" src="assets/MINOX-logo.jpg" alt="MINOX Logo"> 
 
 # MINOX - Microcontroller Inference Network Optimizer for ONNX
 <!-- comment [![Build Status](https://api.travis-ci.org/ai-techsystems/deepC.svg?branch=master)](https://travis-ci.org/github/ai-techsystems/deepC) -->
