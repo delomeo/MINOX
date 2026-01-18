@@ -1,4 +1,5 @@
-# deepC
+<img src="misc/MINOX-logo.jpg" alt="MINOX Logo">
+# MINOX - Microcontroller Inference Network Optimizer for ONNX
 <!-- comment [![Build Status](https://api.travis-ci.org/ai-techsystems/deepC.svg?branch=master)](https://travis-ci.org/github/ai-techsystems/deepC) -->
 [![PyPI version](https://badge.fury.io/py/deepC.svg)](https://badge.fury.io/py/deepC)
 [![Downloads](https://pepy.tech/badge/deepc)](https://pepy.tech/project/deepc)
@@ -6,9 +7,9 @@
 [![Contributors](https://opencollective.com/dnnc/all/badge.svg?label=financial+contributors)](https://opencollective.com/dnnc)
 [![Chat](https://img.shields.io/badge/chat-Gitter-green.svg)](https://gitter.im/ai-techsystems/community)
 
-The deepC is a **vendor independent deep learning library, compiler and inference framework** designed for small form-factor devices including **μControllers, IoT and Edge devices**
+The MINOX is a **vendor independent deep learning library, compiler and inference framework** designed for small form-factor devices including **μControllers, IoT and Edge devices**
 
-## 🏃‍♂️ Using deepC
+## 🏃‍♂️ Using MINOX
 
 Here are few of many ways.
 
@@ -19,17 +20,17 @@ Here are few of many ways.
 
 See more examples in [tutorial](tutorials/README.md) dir.
 
-## 📛 what is deepC?
+## 📛 what is MINOX?
 
-deepC library, compiler and inference framework is designed to **enable and perform** deep learning neural networks by focussing on features of small form-factor devices like micro-controllers, eFPGAs, cpus and other embedded devices like [raspberry-pi](https://www.raspberrypi.org/), [odroid](https://www.hardkernel.com/), [arduino](https://www.arduino.cc/), [SparkFun Edge](https://www.sparkfun.com/products/15170), [risc-V](https://www.amazon.com/Seeed-Studio-Sipeed-Maixduino-RISC-V/dp/B07SW9ZWQQ), mobile phones, x86 and arm laptops among others.
+MINOX library, compiler and inference framework is designed to **enable and perform** deep learning neural networks by focussing on features of small form-factor devices like micro-controllers, eFPGAs, cpus and other embedded devices like [raspberry-pi](https://www.raspberrypi.org/), [odroid](https://www.hardkernel.com/), [arduino](https://www.arduino.cc/), [SparkFun Edge](https://www.sparkfun.com/products/15170), [risc-V](https://www.amazon.com/Seeed-Studio-Sipeed-Maixduino-RISC-V/dp/B07SW9ZWQQ), mobile phones, x86 and arm laptops among others.
 
 ![edge Devices](misc/edgeDevices.png "supported edge devices")
 
-deepC also offers ahead of time compiler producing optimized executable based on [LLVM compiler tool chain](https://llvm.org/) specialized for deep neural networks with [ONNX](https://onnx.ai/) as front end.
+MINOX also offers ahead of time compiler producing optimized executable based on [LLVM compiler tool chain](https://llvm.org/) specialized for deep neural networks with [ONNX](https://onnx.ai/) as front end.
 
 ## 📝 Design
 
-Main components of **deepC** have been designed to represent and optimize the common deep learning networks in high level graph IR and to transform the computation graph to minimize memory utilization, optimize data layout and fuse computation patterns for different hardware backends.
+Main components of **MINOX** have been designed to represent and optimize the common deep learning networks in high level graph IR and to transform the computation graph to minimize memory utilization, optimize data layout and fuse computation patterns for different hardware backends.
 
 <img width="600" alt="Architecture" src="https://github.com/ai-techsystems/deepC/blob/master/misc/dnnCompilerArch.jpg">
 
@@ -44,7 +45,7 @@ Read more at [high level design document](docs/highLevelDesign.md)
 
 ## 💻 Development
 
-Build and start modifying deepC locally from source code with following steps
+Build and start modifying MINOX locally from source code with following steps
 
 ### ⭕ Ubuntu 18.04
 
@@ -55,10 +56,10 @@ sudo apt-get install build-essential python3.6-dev python3-pip swig doxygen clan
 sudo pip3 install numpy==1.15.0 onnx==1.5.0
 ```
 
-Once you are done, build deepC
+Once you are done, build MINOX
 ```bash
-git clone https://github.com/ai-techsystems/deepC.git
-cd deepC
+git clone https://github.com/ai-techsystems/MINOX.git
+cd MINOX
 make
 ```
 ### ⭕ Mac OS / Windows 10
@@ -72,10 +73,10 @@ Make sure you have the below pre-requisites
 - [Python for Windows](https://www.python.org/downloads/windows/)
 - [Docker for Windows](https://docs.docker.com/v17.09/docker-for-windows/install/#download-docker-for-windows)
 
-Once you are done, build deepC inside docker container
+Once you are done, build MINOX inside docker container
 ```bash
-git clone https://github.com/ai-techsystems/deepC.git
-cd deepC
+git clone https://github.com/ai-techsystems/MINOX.git
+cd MINOX
 python buildDocker.py
 ```
 
@@ -83,9 +84,9 @@ python buildDocker.py
 ```bash
 find include src swig -name \*.h -print0 -o -name \*.cpp -print0 | xargs -0 -P8 -n1 clang-format -i
 make -C src
-make[1]: Entering directory 'deepC/src'
+make[1]: Entering directory 'MINOX/src'
 make -C core
-make[2]: Entering directory 'deepC/src/core'
+make[2]: Entering directory 'MINOX/src/core'
 compiling broadcast.cpp
 /usr/bin/g++ -O3 -Wall -std=c++14 -fPIC -march=native -msse2 \
     -isystem ./packages/eigen-eigen-323c052e1731 -I./include \
